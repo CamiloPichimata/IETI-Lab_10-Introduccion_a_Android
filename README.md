@@ -102,8 +102,18 @@ Especificamos un nombre para el dispositivo si se considera necesario y damos cl
 
 ![](img/Device_Manager-9.png)
 
-Para ejecutar el app que fue creada en el dispositivo, en la barra de herramientas, en el menú desplegable seleccionamos el dispositivo creado (**Pixel 5 API 31 - S - Andorid 12.0**) y damos click en el ícono **_Run_**:
+Para ejecutar el app que fue creada en el dispositivo, en la barra de herramientas, en el menú desplegable seleccionamos el dispositivo creado (**Pixel 5 API 31**):
 
 ![](img/Device_Manager-10.png)
+
+Luego damos click en el ícono **_Run_** localizado en la ventana Device Manager:
+
+![](img/Device_Manager-11.png)
+
+Esperamos a que se inicie el emulador:
+
+1[](img/Device_Manager-12.png)
+
+Damos Run a la aplicación, y esperamos a que esta se lanze. Finalmente podemos ver en la pantalla del dispositivo virtual la aplicación, en este caso el nombre **"Happy Birthday"** y en el centro de la pantalla el texto **"Hello World"**.
 
 ## 4. Busca los archivos de tu proyecto
