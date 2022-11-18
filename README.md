@@ -112,8 +112,8 @@ Luego damos click en el ícono **_Run_** localizado en la ventana Device Manager
 
 Esperamos a que se inicie el emulador:
 
-1[](img/Device_Manager-12.png)
+![](img/Device_Manager-12.png)
 
-Damos Run a la aplicación, y esperamos a que esta se lanze. Finalmente podemos ver en la pantalla del dispositivo virtual la aplicación, en este caso el nombre **"Happy Birthday"** y en el centro de la pantalla el texto **"Hello World"**.
+Damos Run a la aplicación, y esperamos a que esta se lanze. Finalmente podemos ver en la pantalla del dispositivo virtual la aplicación, en este caso el nombre **"Happy Birthday"** y en el centro de la pantalla el texto **"Hello World"**:
 
-## 4. Busca los archivos de tu proyecto
+![](img/Device_Manager-13.png)
