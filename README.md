@@ -120,6 +120,8 @@ Damos Run a la aplicación, y esperamos a que esta se lanze. Finalmente podemos 
 
 # Laboratorio 10 (Parte 2): Configuración inicial Task Planner App
 
+## Creación de un proyecto base Android con el template "Basic Activity"
+
 Para realizar la configuración inicial de nuestra aplicación, comenzamos con la creación de un nuevo proyecto en Android Studio como se mencionó en la parte anterior.
 
 En este caso debido a que ya se encuentra abierto el proyecto creado en la parte anterior podemos dirigirnos a la cinta de opciones de la parte superior, damos click en la opción `File` > `New` > `New Project...` como se visauliza en la siguiente imagen:
@@ -137,3 +139,62 @@ En la siguiente ventana configuraremos nuestro proyecto de la siguiente manera:
 Damos click en el botón `Finish` y esperamos a que se complete la configuración del proyecto:
 
 ![](img/New_Project-Task_Planner-4.png)
+
+## Creación del ícono de la aplicación utilizando el Resources Manager
+
+Para la creación del ícono debemos acceder al **Resources Manager** para esto podemos dar click en dicha opción en la barra lateral izquierda:
+
+![](img/Resources_Manager-Icon.png)
+
+Cómo se puede ver existen 2 archivos en la pestaña `Drawable` estos son los que componen el ícono actual de la aplicación.
+
+Comenzaremos agregando dos nuevas imágenes con las que crearemos el nuevo ícono de nuestra aplicación, para esto arrastraremos los archivos a la ventana del _Resouces Manager_:
+
+![](img/Resources_Manager-Icon-2.png)
+
+Al soltar se visualiza la siguiente ventana:
+
+![](img/Resources_Manager-Icon-3.png)
+
+Si es necesario se agregan cualificadores, en este caso dejaremos así y damos click en el botón `Next`:
+
+![](img/Resources_Manager-Icon-4.png)
+
+Podemos ver la información con la que se realizará la importación del nuevo ícono, damos click en el botón `Import`:
+
+![](img/Resources_Manager-Icon-5.png)
+
+Como se puede ver en la imagen anterior, la importación se realizó con éxito; Para asignar un nombre más descriptibo a la imagen importada podemos dar click derecho y seleccionar la opción `Rename...`
+
+![](img/Resources_Manager-Icon-6.png)
+
+Asignamos el nuevo nombre en la ventana **_Rename_**
+
+![](img/Resources_Manager-Icon-7.png)
+
+Damos click en el botón `Refactor` para aplicar lo cambios
+
+![](img/Resources_Manager-Icon-8.png)
+
+Como se puede ver en la imagen anterior el cambio de nombre se realizó correctamente.
+
+Seguido a esto abrimos dos archivos de tipo `xml` llamados **_ic_launcher.xml_** y **ic_launcher_round.xml** los modificamos con el siguiente contenido:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <foreground android:drawable="@drawable/new_icon" />
+</adaptive-icon>
+```
+
+Esto nos permite crear el ícono para que se visualice como se ve a continuación:
+
+![](img/Resources_Manager-Icon-9.png)
+
+Finalmente volvemos a ejecutar nuestra aplicación y podemos ver como el ícono ha cambiado en el dispositivo virtual, esto se puede ver a continuación:
+
+![](img/icon_updated.png)
+
+Al abrir la aplicación desde el dispositivo virtual se visualiza el ícono como se ve a continuación:
+
+![](img/icon_updated-2.png)
