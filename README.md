@@ -52,13 +52,13 @@ A continuación, vamos a crear una app a partir de una plantilla de proyecto de 
 
 ![](img/Ventana-New_Project-Config.png)
 
-- Verificamos que no se encuentre seleccionada la opción **_Use legacy android.support libraries_** y damos click en el botón `Finish`:
+- Verificamos que **no** se encuentre seleccionada la opción **_Use legacy android.support libraries_** y damos click en el botón `Finish`:
 
 - Andorid Studio abre el nuevo proyecto, se puede ver que este se está cargando:
 
 ![](img/New_Project-Created.png)
 
-Si damos click en la pestaña `Build` del menu de opciones de la parte inferior vemos el progreso de configuración del proyecto, al finalizarse podemos ver lo siguiente:
+- Si damos click en la pestaña `Build` del menu de opciones de la parte inferior vemos el progreso de configuración del proyecto, al finalizarse podemos ver lo siguiente:
 
 ![](img/New_Project-Created-2.png)
 
@@ -117,3 +117,23 @@ Esperamos a que se inicie el emulador:
 Damos Run a la aplicación, y esperamos a que esta se lanze. Finalmente podemos ver en la pantalla del dispositivo virtual la aplicación, en este caso el nombre **"Happy Birthday"** y en el centro de la pantalla el texto **"Hello World"**:
 
 ![](img/Device_Manager-13.png)
+
+# Laboratorio 10 (Parte 2): Configuración inicial Task Planner App
+
+Para realizar la configuración inicial de nuestra aplicación, comenzamos con la creación de un nuevo proyecto en Android Studio como se mencionó en la parte anterior.
+
+En este caso debido a que ya se encuentra abierto el proyecto creado en la parte anterior podemos dirigirnos a la cinta de opciones de la parte superior, damos click en la opción `File` > `New` > `New Project...` como se visauliza en la siguiente imagen:
+
+![](img/New_Project-Task_Planner.png)
+
+Nos aparecerá la ventana de **_New Project_** presentada anteriormente, en este caso, dentro de la pestaña `Phone and Tablet` buscamos y seleccionamos la plantilla `Basic Activity` y damos click en el botón `Next`:
+
+![](img/New_Project-Task_Planner-2.png)
+
+En la siguiente ventana configuraremos nuestro proyecto de la siguiente manera:
+
+![](img/New_Project-Task_Planner-3.png)
+
+Damos click en el botón `Finish` y esperamos a que se complete la configuración del proyecto:
+
+![](img/New_Project-Task_Planner-4.png)
